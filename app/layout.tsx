@@ -6,7 +6,7 @@ const roboto = Roboto({ subsets: ['latin'], weight: ['400', '500', '700'] })
 
 export const metadata: Metadata = {
   title: 'Workspace inspiration | Newsletter',
-  description: 'Desafio #40 da Rocketseat',
+  description: 'Desafio #40 da Rocketseat #boraCodar',
 }
 
 export default function RootLayout({

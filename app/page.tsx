@@ -1,10 +1,18 @@
 export default function Home() {
   return (
     <main>
-      <h1>Challenge</h1>
-      <h2>Rocketseat</h2>
-      <h3>#40</h3>
-      <p>Newsletter</p>
+      <h3>Newsletter exclusiva</h3>
+      <h1>Workspace inspiration</h1>
+      <h2>
+        Assine nossa newsletter e transforme seu espaço de trabalho em um oásis
+        de produtividade!
+      </h2>
+      <form>
+        <input type="text" />
+        <button className="purple-linear" type="submit">
+          Quero Receber
+        </button>
+      </form>
     </main>
   )
 }
