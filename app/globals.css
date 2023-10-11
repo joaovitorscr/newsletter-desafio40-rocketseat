@@ -6,12 +6,43 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: black;
-  color: white;
 }
 
 @layer components {
   .purple-linear {
     @apply bg-gradient-to-r from-purple to-pink;
+  }
+
+  .tagline {
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+    @apply bg-gradient-to-r from-purple to-pink inline-block text-transparent bg-clip-text;
+  }
+
+  .heading-h1 {
+    font-size: 48px;
+    line-height: 100%;
+    font-weight: bold;
+  }
+
+  .paragraph-18 {
+    font-size: 18px;
+    line-height: 140%;
+    font-weight: 400;
+  }
+
+  .paragraph-14 {
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: 400;
+    margin-top: 8px;
+  }
+
+  .input-border {
+    background-image: linear-gradient(#202024, #202024),
+      linear-gradient(to right, #996dff, #c7afff);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
   }
 }
